@@ -1,0 +1,71 @@
+﻿img.flag {
+    position: fixed;
+    bottom: 650px;
+    right: auto;
+    width: 300px;
+}
+
+canvas {
+    color: #fff;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height:300px;
+}
+
+svg{
+    width : 300px;
+    height: 200px;
+    stroke-width: 1;
+    stroke : black;
+    position : fixed;
+    bottom: 650px;
+    right:auto;
+    width: 300px;
+}
+
+.romred {
+    fill: #C8102E;
+}
+
+.romblue {
+    fill: #012169;
+}
+
+.romyellow {
+    fill: #FFCD00;
+}
+
+ul {
+    list-style-position: inside;
+}
+#middle {
+    margin: 15px auto;
+    padding: 2px;
+    max-width: 600px;
+}
+
+.form-group {
+    margin: 0 auto;
+    width: 250px;
+}
+
+.yuge {
+    font-size: 40px;
+    text-align: center;
+}
+
+hiddenword {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 40px;
+}
+
+
+
+
+
+

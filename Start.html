@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hangman Game</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="Content/bootswatch/slate/bootstrap.css" />
+    <script src="hangmanscript.js"></script>
+
+
+</head>
+
+<body onload ="hangman();">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://bootswatch.com/slate/">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Start.html">
+                            Hangman
+                            <span class="visually-hidden">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="spanzuratoarea.html">Spanzuratoarea</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="2man.html">Hangman(2players)</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Reffdoc.html">Refferences</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div>
+        <h1 class="text-center">Hangman (English Version)</h1>
+        <h2 class="text-center">Use the letter buttons to guess the word!</h2>
+    </div>
+    <div>
+        <canvas id="stickman"></canvas>
+        <div class="text-center" id="buttons">
+        </div>
+        <div class="text-center" id="wordtoguess">
+        </div>
+        <div class="yuge">
+            <p id="game"></p>
+            <p id="hangsessionscore"></p>
+            <p id="gameswonlost"></p>
+        </div>
+        <div class="text-center">
+            <button type="button" class="btn btn-primary btn-lg" id="reset">Play again</button>
+        </div>
+    </div>
+    <img class="flag" src="BritFlag.png" alt="britishflag"/>
+
+
+
+</body>
+
+</html>
