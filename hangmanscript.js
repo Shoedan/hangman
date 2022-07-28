@@ -157,14 +157,14 @@ hangman = function () {
             localStorage.setItem("Wins", Number(0));
         if (!localStorage.getItem("Loses"))
             localStorage.setItem("Loses", Number(0));
-        if (window.location.href == "file:///D:/Fac/Anul%202/WebTech/Project/Start.html")
+        if (window.location.href == "file:///Start.html")
             words = ["couple", "corruption", "pest", "ignorant", "appoint", "flex", "clash", "missile", "possible", "seller", "glow", "automatic", "spin", "node", "sail", "transmission", "fair", "finger", "scholar", "convert"];
         else {
             words = ["cuplu", "coruptie", "daunator", "ignorant", "desemna", "contracta", "ciocnire", "racheta", "posibil", "vanzator", "stralucire", "automat", "rotire", "nod", "naviga", "transmisie", "corect", "deget", "savant", "convertit"];
             en = 0;
         }
         word = words[Math.floor(Math.random() * words.length)];
-        if (window.location.href == "file:///D:/Fac/Anul%202/WebTech/Project/2man.html") {
+        if (window.location.href == "file:///2man.html") {
             word = document.getElementById("enteredword").value;
             aux.style.visibility = "hidden";
             aux2.style.visibility = "hidden";
@@ -192,7 +192,7 @@ hangman = function () {
         correct.parentNode.removeChild(correct);
         letters.parentNode.removeChild(letters);
         context.clearRect(0, 0, 400, 400);
-        if (window.location.href == "file:///D:/Fac/Anul%202/WebTech/Project/2man.html") {
+        if (window.location.href == "file:///2man.html") {
             aux.style.visibility = "visible";
             aux2.style.visibility = "visible";
         } else {
